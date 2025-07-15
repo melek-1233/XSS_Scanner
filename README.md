@@ -1,7 +1,7 @@
 
 
 <h4 align="center">Advanced XSS Detection Suite</h4>
-
+## XSStrike Version 3.0.5
 <p align="center">
   <a href="https://github.com/s0md3v/XSStrike/releases">
     <img src="https://img.shields.io/github/release/s0md3v/XSStrike.svg">
@@ -71,15 +71,6 @@ python xsstrike.py
 - [Usage](https://github.com/s0md3v/XSStrike/wiki/Usage)
 - [Compatibility & Dependencies](https://github.com/s0md3v/XSStrike/wiki/Compatibility-&-Dependencies)
 
-### FAQ
-- [It says fuzzywuzzy isn't installed but it is.](https://github.com/s0md3v/XSStrike/wiki/FAQ#it-says-fuzzywuzzy-is-not-installed-but-its)
-- [What's up with Blind XSS?](https://github.com/s0md3v/XSStrike/wiki/FAQ#whats-up-with-blind-xss)
-- [Why XSStrike boasts that it is the most advanced XSS detection suite?](https://github.com/s0md3v/XSStrike/wiki/FAQ#why-xsstrike-boasts-that-it-is-the-most-advanced-xss-detection-suite)
-- [I like the project, what enhancements and features I can expect in future?](https://github.com/s0md3v/XSStrike/wiki/FAQ#i-like-the-project-what-enhancements-and-features-i-can-expect-in-future)
-- [What's the false positive/negative rate?](https://github.com/s0md3v/XSStrike/wiki/FAQ#whats-the-false-positivenegative-rate)
-- [Tool xyz works against the target, while XSStrike doesn't!](https://github.com/s0md3v/XSStrike/wiki/FAQ#tool-xyz-works-against-the-target-while-xsstrike-doesnt)
-- [Can I copy it's code?](https://github.com/s0md3v/XSStrike/wiki/FAQ#can-i-copy-its-code)
-- [What if I want to embed it into a proprietary software?](https://github.com/s0md3v/XSStrike/wiki/FAQ#what-if-i-want-to-embed-it-into-a-proprietary-software)
 
 ### Gallery
 #### DOM XSS
@@ -97,15 +88,7 @@ python xsstrike.py
 #### Hidden Parameter Discovery
 ![arjun](https://image.ibb.co/effjh0/Screenshot-2018-11-19-14-16-51.png)
 
-### Contribution, Credits & License
-Ways to contribute
-- Suggest a feature
-- Report a bug
-- Fix something and open a pull request
-- Help me document the code
-- Spread the word
 
-Licensed under the GNU GPLv3, see [LICENSE](LICENSE) for more information.
 
 The WAF signatures in `/db/wafSignatures.json` are taken & modified from [sqlmap](https://github.com/sqlmapproject/sqlmap). I extracted them from sqlmap's waf detection modules which can found [here](https://github.com/sqlmapproject/sqlmap/blob/master/waf/) and converted them to JSON.\
 `/plugins/retireJS.py` is a modified version of [retirejslib](https://github.com/FallibleInc/retirejslib/).
