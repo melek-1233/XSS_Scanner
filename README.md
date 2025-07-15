@@ -1,10 +1,4 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/s0md3v/XSStrike"><img src="https://image.ibb.co/cpuYoA/xsstrike-logo.png" alt="XSStrike"></a>
-  <br>
-  XSStrike
-  <br>
-</h1>
+
 
 <h4 align="center">Advanced XSS Detection Suite</h4>
 
