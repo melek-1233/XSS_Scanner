@@ -1,7 +1,7 @@
 
 
 <h4 align="center">Advanced XSS Detection Suite</h4>
-## XSStrike Version 3.0.5
+<h6 align="center">XSStrike Version 3.0.5</h6> 
 <p align="center">
   <a href="https://github.com/s0md3v/XSStrike/releases">
     <img src="https://img.shields.io/github/release/s0md3v/XSStrike.svg">
